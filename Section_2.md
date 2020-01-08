@@ -21,8 +21,9 @@ for ($x = 0; $x <= 100; $x++) {
 
 # Question 2: 
 
-
+'''php
 // Function returns the HCF of two numbers
+
 function hcf($num1, $num2) 
 { 
     if ($num1 == 0) 
@@ -31,6 +32,7 @@ function hcf($num1, $num2)
 } 
   
 // Function to find the hcf in an array of numbers 
+
 function findHCF($n, $arr) 
 { 
     $answer = $arr[sizeof($arr) - $n];   //answer is the first +ve integer in arr
@@ -48,18 +50,20 @@ function findHCF($n, $arr)
 } 
 
 // Testing output
+
 echo (findHCF(5, [2, 4, 6, 8, 10])), ", ";
 echo (findHCF(5, [2, 3, 4, 5, 6])), ", "; 
 echo (findHCF(3, [1, 3, 21])), ", ";
 echo (findHCF(4, [-1, 4, 48, 12, 8])), ", "; 
 echo (findHCF(1, [-1, -2, -3, -4, 21]));
-
+  ...
 
 #-----------------------------------------
 
 # Question 3: 
 
-// check for Palindrome string recursively in PHP   
+// check for Palindrome string recursively in PHP  
+
 function palindromeCheck($string){ 
     strtolower($string);  //converting string to lower case
     // Base codition 
@@ -69,9 +73,11 @@ function palindromeCheck($string){
   
     else{    
         // First character is compared with the last one 
+        
         if (substr($string,0,1) == substr($string,(strlen($string) - 1),1)){ 
     
-            // Checked letters are discarded and passed for next call 
+            // Checked letters are discarded and passed for next call
+            
             return palindromeCheck(substr($string,1,strlen($string) -2)); 
         } 
         else{  
