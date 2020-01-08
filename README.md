@@ -6,21 +6,22 @@
 
 ### Section 2 questions is answered in .md file named "Section_2".
 
+<pre>
 Section 1:
-⋅⋅⋅ You are tasked to build a new product, an online restaurant reservation platform -
-⋅⋅⋅ choose a front-end language/framework, back-end language/framework and a database
-⋅⋅⋅ management system. Tell us why you’ve chosen this stack.
+You are tasked to build a new product, an online restaurant reservation platform -
+choose a front-end language/framework, back-end language/framework and a database
+management system. Tell us why you’ve chosen this stack.
 
 Section 2:
-⋅⋅⋅ In the programming language of your choice, write the solution for the following
-⋅⋅⋅ questions:
-⋅⋅⋅ 1. Write a for loop that prints all the multiples of 3 and 5 up to 100:
-⋅⋅⋅ a. 3, 5, 6, 9, 10...100
-⋅⋅⋅ 2. The highest common factor of N numbers is the largest positive integer that
-⋅⋅⋅ divides all numbers without giving a remainder. Write an algorithm to determine
-⋅⋅⋅ the highest common factor of N positive integers.
-⋅⋅⋅ Input
-⋅⋅⋅ The input to the function / method consists of two arguments:
+In the programming language of your choice, write the solution for the following
+questions:
+1. Write a for loop that prints all the multiples of 3 and 5 up to 100:
+a. 3, 5, 6, 9, 10...100
+2. The highest common factor of N numbers is the largest positive integer that
+divides all numbers without giving a remainder. Write an algorithm to determine
+the highest common factor of N positive integers.
+Input
+The input to the function / method consists of two arguments:
 ● num , an integer representing the number of positive integers (N)
 ● arr , a list of integers
 ● findHCF( num , arr ) → HCF
@@ -36,4 +37,4 @@ e. findHCF(1, [-1, -2, -3, -4, 21]) → 21
 a. ‘tacocat’ → true
 b. ‘racecar’ → true
 c. ‘beanbag’ → false
-d. ‘Hannah’ → true
+d. ‘Hannah’ → true </pre>
