@@ -1,6 +1,6 @@
 # The following PHP code is solution for the questions in section 2: 
 
-
+```php
 # Question 1: 
 
 
@@ -15,15 +15,14 @@ for ($x = 0; $x <= 100; $x++) {
       echo $x , ", ";
     }
 }
-
-
+```
 #-----------------------------------------
+
 
 # Question 2: 
 
-'''php
+```php
 // Function returns the HCF of two numbers
-
 function hcf($num1, $num2) 
 { 
     if ($num1 == 0) 
@@ -50,20 +49,19 @@ function findHCF($n, $arr)
 } 
 
 // Testing output
-
 echo (findHCF(5, [2, 4, 6, 8, 10])), ", ";
 echo (findHCF(5, [2, 3, 4, 5, 6])), ", "; 
 echo (findHCF(3, [1, 3, 21])), ", ";
 echo (findHCF(4, [-1, 4, 48, 12, 8])), ", "; 
 echo (findHCF(1, [-1, -2, -3, -4, 21]));
-  ...
+```
 
 #-----------------------------------------
 
 # Question 3: 
 
+```php
 // check for Palindrome string recursively in PHP  
-
 function palindromeCheck($string){ 
     strtolower($string);  //converting string to lower case
     // Base codition 
@@ -90,4 +88,4 @@ echo (palindromeCheck('tacocat')), ", ";
 echo (palindromeCheck('racecar')), ", ";
 echo (palindromeCheck('beanbag')), ", ";
 echo (palindromeCheck('hannah'));
-
+```
