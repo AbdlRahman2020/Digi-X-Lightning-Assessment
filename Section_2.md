@@ -1,5 +1,3 @@
-# Task one solution is in "section 1" repo.
-
 # The following PHP code is solution for the questions in section 2: 
 
 
