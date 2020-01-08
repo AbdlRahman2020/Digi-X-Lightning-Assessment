@@ -2,6 +2,6 @@
 
 This repo contains the solution for 2 tasks required by the Digi-X assessment. 
 
-Section 1 is answered seperatly in the Section 1 folder.
+Section 1 questions is answered seperatly in "the Section_1" repo.
 
-Section 2 is answered in a .md file named Section 2.
+Section 2 questions is answered in .md file named "Section_2".
