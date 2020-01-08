@@ -1,7 +1,9 @@
 # The following PHP code is solution for the questions in section 2: 
 
+# Question 1:
+
 ```php
-# Question 1: 
+ 
 
 
 for (int i = 0; i <= 100; i++) {
