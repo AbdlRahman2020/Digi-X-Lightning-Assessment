@@ -11,6 +11,7 @@
 #### 1- Install XAMPP
 #### 2- Start Apache and MySQL servers on local host
 #### 3- copy the project files into your local host directory (by default it's c:/xampp/htdocs)
+#### 4- Make sure to import the database "restaurant.sql" into PHPMyAdmin server. 
 #### 4- run index.php using the browser
 #### 5- once reservation is clicked, user needs to enter reservation info
 #### 6- The index.php page inside the admin folder is used for admin login
